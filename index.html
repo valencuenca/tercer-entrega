@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bienvenidos</title>
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- comienzo header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="img/logo.png" alt="logo argentina">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="sucursales.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                sucursales
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sucursales.html">Rosario</a></li>
+                                <li><a class="dropdown-item" href="mardelplata.html">Mar Del Plata</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="laplata.html">Laplata</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin header -->
+    <!-- carrusel de fotos -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carrusel1.jpg" class="d-block w-100" alt="foto messi">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel2.jpg" class="d-block w-100" alt="foto di maria">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carrusel3.jpg" class="d-block w-100" alt="messi2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- fin carrusel -->
+
+
+    <!-- comienza info principal de la pag -->
+    <section>
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 logo" src="img/foto pal hero.png" alt="foto de la info">
+            <h1 class="display-5 fw-bold"> web oficial de Argentina</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">A traves de nuestra pagina web podras encontrar muchisimos modelos e indumentaria
+                    de calzado,remeras,balones entre otras cosas</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Tienda</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contacto</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin info principal -->
+    <hr>
+    <!-- segunda parte -->
+    <div class="contenedorSeg">
+        <div class="row">
+            <div class="col-sm-12 col-xxl-6 text-center" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" >
+                <img src="img/caramessi.png" alt="caramessi">
+            </div>
+            <div class="col-sm-12 col-xxl-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, assumenda! Corrupti nisi, quos
+                    iste cumque reprehenderit ea distinctio rerum aperiam, est amet eaque harum voluptatem sequi sed
+                    molestiae, consequuntur itaque inventore. Dignissimos, minima. Molestiae illum quibusdam commodi
+                    voluptatibus, nemo culpa pariatur delectus quam laborum rem iusto aliquam, quia quo optio adipisci
+                    rerum ipsam non nulla et sint architecto. Illum, quae. Quam optio quibusdam ea. Quae eligendi
+                    praesentium eum iste qui suscipit saepe vitae aliquid veniam quibusdam ex, aliquam totam laboriosam
+                    odit veritatis, molestiae ipsa? Eaque cum eum officiis amet. Nostrum, provident iste a harum
+                    exercitationem at culpa! Deserunt, necessitatibus nostrum minus hic et quisquam? Culpa sed saepe
+                    deserunt nemo commodi, debitis quidem, deleniti libero laudantium sequi tempora delectus inventore
+                    itaque? Sunt repudiandae temporibus quidem nulla corrupti, sint animi, beatae eum dolor cupiditate
+                    excepturi laboriosam ratione commodi sit laudantium, eaque dolores porro eos quisquam iusto qui
+                    facilis labore? Sequi provident debitis dolores earum, blanditiis tenetur, voluptatibus corrupti
+                    ullam cupiditate officia veniam praesentium dolorem doloribus ex, unde quisquam obcaecati corporis
+                    quae? Quod, quos odio. Temporibus deserunt asperiores fuga iusto. Recusandae eum eligendi deleniti
+                    voluptatum! Odit, dolorem, ab quas porro aliquid soluta praesentium necessitatibus quidem nobis eius
+                    et deleniti modi consequatur quae tenetur sequi asperiores. Hic fugiat sit, illo voluptatum
+                    asperiores, est aperiam, alias quibusdam optio corporis facere voluptatibus numquam placeat possimus
+                    ex rerum nobis odit expedita ab commodi maxime velit maiores tenetur debitis. Dolorum nam
+                    repudiandae in pariatur tempora deserunt, aspernatur esse rerum accusantium cupiditate ad quasi
+                    aliquam vitae perspiciatis omnis itaque quo voluptatum reiciendis adipisci qui cum? Sint, quo
+                    deserunt voluptates sit veniam tempora necessitatibus excepturi architecto numquam! Exercitationem
+                    blanditiis sed alias explicabo neque architecto voluptate eius doloremque corrupti ullam
+                    perferendis, suscipit cupiditate earum voluptas officia iusto veniam. Tempora, dolor vero
+                    consequuntur rerum, dignissimos in, aperiam quidem amet eius ad alias.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- fin segunda parte -->
+
+
+    <!-- footer -->
+    <div class="container bg-dark ">
+        <footer class="py-3 my-5 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                <li class="nav-item"><a href="sucursales.html" class="nav-link px-2 text-muted">sucursales</a></li>
+                <li class="nav-item"><a href="tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022 Argentina, Inc</p>
+        </footer>
+    </div>
+    <!-- fin footer -->
+
+
+
+
+
+
+    <!-- JavaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.logo {
+    width:120px ;
+}
+
+
+.slide {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+}
+.row {
+    justify-content: space-between;
+}
+.fondoIndex {
+    background-image: url(../img/fondo\ arg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.form {
+    width: 30%;
+    
+}
+.contenedorForms {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+
+
